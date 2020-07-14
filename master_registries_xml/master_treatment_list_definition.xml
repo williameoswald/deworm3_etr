@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataset>
+    <definition>
+        <id>master_treatment_list</id>
+        <title>Treatment List</title>
+        <datasetType>SERVER</datasetType>
+        <fieldNames>key,level2_id,level1_id,hoh_name,hoh_phone,hh_id,intervention,hh_entry,street_number,street_name,latitude,longitude,num_residents,num_residents_orig,visited,hh_complete,hh_notlocated,num_treated,num_underone,num_pregnant,num_prevdewormed,num_ill,num_intox,num_refused,num_at_school,num_at_college,num_at_work,num_not_at_home,num_oth_absence,num_perm_migrated,num_temp_migrated,num_died,num_unlisted,num_in_hhnotlocated,num_in_hhpermmig,num_in_hhtempmig,num_in_hhrefused,num_tocontrol,num_complete,unique_id*,individual_name*,age*,sex*,entry*,status*</fieldNames>
+        <formLinks>
+            <formLink>
+                <formId>master_etr</formId>
+            </formLink>
+        </formLinks>
+        <dataLinks>
+            <dataLink>
+                <dataLinkClass>FORM</dataLinkClass>
+                <dataLinkType>INCOMING</dataLinkType>
+                <linkObjectId>master_etr</linkObjectId>
+                <fieldMap>{"monitoring_key":"key","level2_id_upd":"level2_id","level1_id_upd":"level1_id","hh_notlocated_upd":"hh_notlocated","num_listed_upd":"num_residents","visited_plusone":"visited","num_treated_upd":"num_treated","num_underone_upd":"num_underone","num_pregnant_upd":"num_pregnant","num_prevdewormed_upd":"num_prevdewormed","num_ill_upd":"num_ill","num_intox_upd":"num_intox","num_refused_upd":"num_refused","num_at_school_upd":"num_at_school","num_at_college_upd":"num_at_college","num_at_work_upd":"num_at_work","num_not_at_home_upd":"num_not_at_home","num_oth_absence_upd":"num_oth_absence","num_perm_migrated_upd":"num_perm_migrated","num_temp_migrated_upd":"num_temp_migrated","num_died_upd":"num_died","num_complete_upd":"num_complete","unique_id*":"unique_id*","individual_name*":"individual_name*","sex*":"sex*","age*":"age*","entry*":"entry*","status_upd*":"status*","new_loc_help":"loc_help","new_loc_name":"loc_name","new_street_number":"street_number","new_street_name":"street_name","new_hoh_name":"hoh_name","new_hoh_phone":"hoh_phone","new_latitude":"latitude","new_longitude":"longitude","hh_complete_upd":"hh_complete","monitoring_hh_entry":"hh_entry","monitoring_intervention":"intervention"}</fieldMap>
+                <joiningField>monitoring_key</joiningField>
+                <relevanceField></relevanceField>
+            </dataLink>
+        </dataLinks>
+    </definition>
+    <instance>
+        <version>1</version>
+    </instance>
+</dataset>

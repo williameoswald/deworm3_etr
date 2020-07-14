@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataset>
+    <definition>
+        <id>master_monitoring</id>
+        <title>MDA Monitoring</title>
+        <datasetType>SERVER</datasetType>
+        <fieldNames>monitoring_key,level2_id,level1_id,num_residents,hh_notlocated_upd,num_in_hhnotlocated_upd,hh_notpresent_upd,num_in_hhnotpresent_upd,hh_permmig_upd,num_in_hhpermmig_upd,hh_tempmig_upd,num_in_hhtempmig_upd,hh_refused_upd,num_in_hhrefused_upd,visited_plusone,hh_complete_upd,num_treated_upd,num_prevdewormed_upd,num_underone_upd,num_pregnant_upd,num_perm_migrated_upd,num_temp_migrated_upd,num_ill_upd,num_intox_upd,num_refused_upd,num_at_school_upd,num_at_college_upd,num_at_work_upd,num_not_at_home_upd,num_oth_absence_upd,num_died_upd,num_listed_upd,num_complete_upd,monitoring_intervention,monitoring_hh_entry,date,officer</fieldNames>
+        <formLinks/>
+        <dataLinks>
+            <dataLink>
+                <dataLinkClass>FORM</dataLinkClass>
+                <dataLinkType>INCOMING</dataLinkType>
+                <linkObjectId>master_etr</linkObjectId>
+                <fieldMap>{"monitoring_key":"monitoring_key","level2_id":"level2_id","level1_id":"level1_id","num_residents":"num_residents","hh_notlocated_upd":"hh_notlocated_upd","num_in_hhnotlocated_upd":"num_in_hhnotlocated_upd","hh_notpresent_upd":"hh_notpresent_upd","num_in_hhnotpresent_upd":"num_in_hhnotpresent_upd","hh_permmig_upd":"hh_permmig_upd","num_in_hhpermmig_upd":"num_in_hhpermmig_upd","hh_tempmig_upd":"hh_tempmig_upd","num_in_hhtempmig_upd":"num_in_hhtempmig_upd","hh_refused_upd":"hh_refused_upd","num_in_hhrefused_upd":"num_in_hhrefused_upd","visited_plusone":"visited_plusone","hh_complete_upd":"hh_complete_upd","num_treated_upd":"num_treated_upd","num_prevdewormed_upd":"num_prevdewormed_upd","num_underone_upd":"num_underone_upd","num_pregnant_upd":"num_pregnant_upd","num_perm_migrated_upd":"num_perm_migrated_upd","num_temp_migrated_upd":"num_temp_migrated_upd","num_ill_upd":"num_ill_upd","num_intox_upd":"num_intox_upd","num_refused_upd":"num_refused_upd","num_at_school_upd":"num_at_school_upd","num_at_college_upd":"num_at_college_upd","num_at_work_upd":"num_at_work_upd","num_not_at_home_upd":"num_not_at_home_upd","num_oth_absence_upd":"num_oth_absence_upd","num_died_upd":"num_died_upd","num_listed_upd":"num_listed_upd","num_complete_upd":"num_complete_upd","monitoring_intervention":"monitoring_intervention","monitoring_hh_entry":"monitoring_hh_entry","date":"date","officer":"officer"}</fieldMap>
+                <joiningField>monitoring_key</joiningField>
+                <relevanceField></relevanceField>
+            </dataLink>
+            <dataLink>
+                <dataLinkClass>SPREADSHEET</dataLinkClass>
+                <dataLinkType>OUTGOING</dataLinkType>
+                <linkObjectId>1wCxG90RXYl172KaKInq-wstWecR_H_GFq7FkJrIk7dY</linkObjectId>
+                <fieldMap>{"monitoring_key":"monitoring_key","level2_id":"level2_id","level1_id":"level1_id","num_residents":"num_residents","hh_notlocated_upd":"hh_notlocated_upd","num_in_hhnotlocated_upd":"num_in_hhnotlocated_upd","hh_notpresent_upd":"hh_notpresent_upd","num_in_hhnotpresent_upd":"num_in_hhnotpresent_upd","hh_permmig_upd":"hh_permmig_upd","num_in_hhpermmig_upd":"num_in_hhpermmig_upd","hh_tempmig_upd":"hh_tempmig_upd","num_in_hhtempmig_upd":"num_in_hhtempmig_upd","hh_refused_upd":"hh_refused_upd","num_in_hhrefused_upd":"num_in_hhrefused_upd","visited_plusone":"visited_plusone","hh_complete_upd":"hh_complete_upd","num_treated_upd":"num_treated_upd","num_prevdewormed_upd":"num_prevdewormed_upd","num_underone_upd":"num_underone_upd","num_pregnant_upd":"num_pregnant_upd","num_perm_migrated_upd":"num_perm_migrated_upd","num_temp_migrated_upd":"num_temp_migrated_upd","num_ill_upd":"num_ill_upd","num_intox_upd":"num_intox_upd","num_refused_upd":"num_refused_upd","num_at_school_upd":"num_at_school_upd","num_at_college_upd":"num_at_college_upd","num_at_work_upd":"num_at_work_upd","num_not_at_home_upd":"num_not_at_home_upd","num_oth_absence_upd":"num_oth_absence_upd","num_died_upd":"num_died_upd","num_listed_upd":"num_listed_upd","num_complete_upd":"num_complete_upd","monitoring_intervention":"monitoring_intervention","monitoring_hh_entry":"monitoring_hh_entry","date":"date","officer":"officer"}</fieldMap>
+                <joiningField>monitoring_key</joiningField>
+                <relevanceField></relevanceField>
+            </dataLink>
+        </dataLinks>
+    </definition>
+    <instance>
+        <version>12</version>
+    </instance>
+</dataset>
